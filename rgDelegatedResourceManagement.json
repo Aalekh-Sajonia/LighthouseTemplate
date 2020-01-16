@@ -3,16 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "mspName": {
-            "type": "string",
-            "metadata": {
-                "description": "Specify the Managed Service Provider name"
-            }
+          "type": "string",
+          "defaultValue": "Standard CSP"
         },
         "mspOfferDescription": {
-            "type": "string",
-            "metadata": {
-                "description": "Name of the Managed Service Provider offering"
-            }
+            "type": "string"
         },
         "managedByTenantId": {
             "type": "string",
