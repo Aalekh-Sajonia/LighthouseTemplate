@@ -17,7 +17,7 @@
         },
         "authorizations": {
           "type": "array",
-          "defaultValue": "[]"
+          "defaultValue": [ "value1", "value2" ]
         }              
     },
     "variables": {
