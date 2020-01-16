@@ -17,8 +17,14 @@
         },
         "authorizations": {
           "type": "array",
-          "defaultValue": [ "value1", "value2" ]
-        }              
+          "defaultValue": [
+            {
+              "principalId": "4ddfd6e7-72a0-4c92-ad04-884cdd544fb1",
+              "principalIdDisplayName": "Tier1 (Lighthouse)",
+              "roleDefinitionId": "b24988ac-6180-42a0-ab88-20f7382dd24c"
+            }
+          ]
+      }              
     },
     "variables": {
         "mspRegistrationName": "[guid(parameters('mspName'))]",
