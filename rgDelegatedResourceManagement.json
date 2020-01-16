@@ -36,10 +36,10 @@
             "apiVersion": "2019-06-01",
             "name": "[variables('mspRegistrationName')]",
             "properties": {
-                "registrationDefinitionName": "[parameters('mspName')]",
-                "description": "[parameters('mspOfferDescription')]",
-                "managedByTenantId": "[parameters('managedByTenantId')]",
-                "authorizations": "[parameters('authorizations')]"
+              "registrationDefinitionName": "[parameters('mspName')]",
+              "description": "[parameters('mspOfferDescription')]",
+              "managedByTenantId": "975ed12e-7c0a-4f71-8881-fdda7e3e9847",
+              "authorizations": "[parameters('authorizations')]"
             }
         },
         {
