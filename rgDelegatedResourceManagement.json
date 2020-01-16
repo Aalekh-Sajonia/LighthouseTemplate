@@ -7,7 +7,8 @@
           "defaultValue": "Standard CSP"
         },
         "mspOfferDescription": {
-            "type": "string"
+          "type": "string",
+          "defaultValue": "Standard CSP1"
         },
         "managedByTenantId": {
             "type": "string",
