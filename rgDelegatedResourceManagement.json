@@ -8,13 +8,12 @@
         },
         "mspOfferDescription": {
           "type": "string",
-          "defaultValue": "Standard CSP1"
+          "defaultValue": "Oppering managed csp services"
         },
         "managedByTenantId": {
-            "type": "string",
-            "metadata": {
-                "description": "Specify the tenant id of the Managed Service Provider"
-            }
+          "type": "string",
+          "defaultValue": "Standard CSP1"
+
         },
         "authorizations": {
             "type": "array",
